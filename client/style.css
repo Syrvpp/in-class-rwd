@@ -42,6 +42,13 @@ li {
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Direct Child Selector */
+nav > a {
+  border: solid thin var(--primary-color);
+  padding: 1rem 1.5rem;
 }
 
 /* unvisited link */
@@ -62,6 +69,11 @@ a:hover {
 /* selected link */
 a:active {
   color: black;
+}
+
+nav > a:link,
+nav > a:visited {
+  color: var(--primary-color);
 }
 
 .fas {

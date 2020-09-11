@@ -43,11 +43,11 @@
         placeholder="Name" required/></div>
       <div>
         <label class="screen-reader-text"for="email">Email</label class="screen-reader-text"><input type="email" id="email"
-          placeholder="Email" required/>
+          placeholder="Email pattern="`^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$`" required/>
       </div>
       <div>
         <label class="screen-reader-text"for="fone">Phone #</label class="screen-reader-text"><input type="text" id="fone"
-          placeholder="Phone" required/>
+          placeholder="Phone" pattern="[0-9]{10}" required/>
       </div>
       <div>
         <label class="screen-reader-text"for="profilPic"></label class="screen-reader-text"><input type="file" id="profilePic" />
@@ -57,6 +57,6 @@
       <button class="button button--warning" type="reset">Reset</button>
     </form>
 
-    <script src="./scripts.js"></script>
+    <script src="./scripts.js" type="module"></script>
   </body>
 </html>

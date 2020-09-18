@@ -1,6 +1,7 @@
 const nav = document.querySelector("nav");
 
 export default () => {
+  console.log("hello");
   document.querySelector(".fa-hamburger").addEventListener(
     "click",
     // Callback fxn.

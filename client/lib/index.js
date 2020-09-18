@@ -1,3 +1,3 @@
 export { default as nav } from "./nav.js";
 
-export { validation } from "./form/index.js";
+export { validation, toggle } from "./form/index.js";

@@ -37,7 +37,7 @@ form {
 
 form {
   margin: 0 auto;
-  width: 80vw; /*viewpoint width*/
+  width: 80vw; /* viewpoint width */
 }
 
 ul {
@@ -136,6 +136,21 @@ nav > a:visited {
 
 .flex--justify-space-around {
   justify-content: space-around;
+}
+
+.text-button {
+  background-color: transparent;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.text-button--secondary {
+  color: var(--secondary-color);
+}
+
+.text-button--warning {
+  color: var(--warning-color);
 }
 
 /* JS Classes */
